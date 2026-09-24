@@ -43,6 +43,8 @@ export function Navbar() {
                     </Link>
                 </li>
             </ul>
+
+            
         </nav>
     );
 }

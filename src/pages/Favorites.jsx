@@ -26,7 +26,7 @@ export function Favorites() {
                     {favorites.map((movie) => (
                         <MoviesCard
                             key={movie.id}
-                            movie={movie} 
+                            movie={movie}
                             isFavorite={isFavorite(movie.id)}
                             onToggleFavorite={toggleFavorite}
                         />
